@@ -1,0 +1,110 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* .box1 {
+    width: 100%;
+    height: 30vh;
+    background-image: url("../../assets/codePhoto.jpg");
+} */
+
+.navColor {
+    background-color: rgb(231, 231, 231);
+}
+
+.navText {
+    color: #1BB5DA;
+}
+
+body {
+    height: 100vh;
+    background-color: #5d6b9c;
+    width: 100%;
+    padding: none;
+    margin: none;
+}
+
+.homeImg {
+    width: 100%;
+    object-fit: cover;
+    height: 30vh;
+}
+
+.homeBgColor {
+
+    background-color: white;
+}
+
+
+.textColor {
+    color: #008db1;
+    font-size: 4rem;
+    width: 500px;
+    font-weight: 800;
+
+}
+
+.headerHeight {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logoSize {
+    width: 75px;
+    height: auto;
+}
+
+.homeBtmRow {
+    max-height: 70vh;
+    min-height: 70vh;
+    background-color: bisque;
+
+    object-fit: cover;
+    background-image: url("../../assets/codePhoto.jpg");
+
+}
+
+.cardImgSize {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+
+.bgSubPage {
+    background-color: white;
+    height: 100vh;
+    max-height: 100%;
+}
+
+.bigImgSize2 {
+    width: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+
+}
+
+.bigImgSize {
+    width: 500px;
+    object-fit: cover;
+
+}
+
+.bigTextSize {
+    width: 600px;
+    font-size: 20px;
+
+}
+
+.logoSize2 {
+    width: auto;
+    height: 250px;
+    object-fit: cover;
+}
+
+.textColorMid {
+    color: white;
+}
