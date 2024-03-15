@@ -1,3 +1,17 @@
+
+
+
+
+<!-- Peer Reviewed By: Jayvon Khuth -->
+<!-- Peer Review: I like the overall design of the site, everything looks visually pleasing. And looking at his code liked how he passed props into his card components, however he used the type any for his props which I would advise to change. Other things I would suggest to improve is to maybe change the color of the nav links, because it looks a bit hard to see, and also I don't know if it's required, but I would suggest putting alt tags on all the images. Other than that though, great job! I might steal the design of your website.  -->
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
