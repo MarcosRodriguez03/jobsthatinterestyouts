@@ -2,10 +2,18 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './Pages/style/home.css'
 
-function CardComponent(props: any) {
+export type Iinfo = {
+    pic: string
+    alt: string
+    desc: string
+    name: string
+    click: () => void
+}
+
+function CardComponent(props: Iinfo) {
     return (
         <Card style={{ width: '18rem' }}>
-            <Card.Img className='cardImgSize' variant="top" src={props.pic} />
+            <Card.Img className='cardImgSize' alt={props.alt} variant="top" src={props.pic} />
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text>

@@ -1,9 +1,14 @@
+Marcos Rodriguez
+3 / 16 / 2024
+jobs that interest you 
+I made a web application about top 5 companies I would love to work at using react 
 
+Peer Reviewed By: Jayvon Khuth
+Peer Review: I like the overall design of the site, everything looks visually pleasing. And looking at his code liked how he passed props into his card components, however he used the type any for his props which I would advise to change. Other things I would suggest to improve is to maybe change the color of the nav links, because it looks a bit hard to see, and also I don't know if it's required, but I would suggest putting alt tags on all the images. Other than that though, great job! I might steal the design of your website. 
 
-
-
-<!-- Peer Reviewed By: Jayvon Khuth -->
-<!-- Peer Review: I like the overall design of the site, everything looks visually pleasing. And looking at his code liked how he passed props into his card components, however he used the type any for his props which I would advise to change. Other things I would suggest to improve is to maybe change the color of the nav links, because it looks a bit hard to see, and also I don't know if it's required, but I would suggest putting alt tags on all the images. Other than that though, great job! I might steal the design of your website.  -->
+removed any tag and used typescript interface
+added alt tags for props
+made links darker
 
 
 

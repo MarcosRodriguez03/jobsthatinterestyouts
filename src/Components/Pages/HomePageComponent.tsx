@@ -18,7 +18,7 @@ import mInfo from "../assets/mojangInfo.webp"
 import nInfo from "../assets/nvidiaInfo.jpeg"
 import CardComponent from '../CardComponent';
 import wave from '../assets/wave (1).svg'
-
+import { Iinfo } from '../CardComponent';
 
 const HomePageComponent = () => {
 
@@ -64,11 +64,11 @@ const HomePageComponent = () => {
 
 
             <div className='d-flex justify-content-evenly p-5 gap-5'>
-                <CardComponent pic={dInfo} name={"Discod"} desc={""} click={hanldeClickDiscord} />
-                <CardComponent pic={gInfo} name={"Google"} desc={""} click={hanldeClickGoogle} />
-                <CardComponent pic={microInfo} name={"Microsoft"} desc={""} click={hanldeClickMicrosoft} />
-                <CardComponent pic={mInfo} name={"Mojang"} desc={""} click={hanldeClickMojang} />
-                <CardComponent pic={nInfo} name={"Nvidia"} desc={""} click={hanldeClickNvidia} />
+                <CardComponent alt={"Discord pic"} pic={dInfo} name={"Discord"} desc={""} click={hanldeClickDiscord} />
+                <CardComponent alt={"Google pic"} pic={gInfo} name={"Google"} desc={""} click={hanldeClickGoogle} />
+                <CardComponent alt={"Microsoft pic"} pic={microInfo} name={"Microsoft"} desc={""} click={hanldeClickMicrosoft} />
+                <CardComponent alt={"Mojang pic"} pic={mInfo} name={"Mojang"} desc={""} click={hanldeClickMojang} />
+                <CardComponent alt={"Nvidia pic"} pic={nInfo} name={"Nvidia"} desc={""} click={hanldeClickNvidia} />
             </div>
 
         </>
